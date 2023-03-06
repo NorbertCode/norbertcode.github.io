@@ -6,27 +6,34 @@
 	<title>GermanTester</title>
 	
 	<link rel="stylesheet" href="style.css">
+	<script src="js/loadFile.js"></script>
 </head>
 <body>
 	<header>
 		<h1>German Tester</h1>
 	</header>
 	<main>
+		<!-- Mode -->
+		<select id="mode" class="area" onchange="changeMode()">
+			<option value="0">Losuj</option>
+			<option value="1">Po kolei, polski</option>
+			<option value="2">Po kolei, niemiecki</option>
+		</select>
+	
 		<!-- Question -->
-		<div class="area" id="question">
-			<p>AMOGUS</p>
+		<div class="area">
+			<p id="question">AMOGUS</p>
 		</div>
 		
 		<!-- Answer -->
-		<input type="text" class="area" id="input" placeholder="ODPOWIEDŹ">
+		<input type="text" id="input" class="area" placeholder="ODPOWIEDŹ">
 		</div>
 		
 		<br>
 		
-		<button>SPRAWDŹ</button>
+		<button id="checkButton">SPRAWDŹ</button>
 	</main>
-	<footer>
 	
-	</footer>
+	<script src="js/quiz.js"></script>
 </body>
 </html>
