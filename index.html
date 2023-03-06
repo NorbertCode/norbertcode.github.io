@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 	
 	<title>GermanTester</title>
 	
 	<link rel="stylesheet" href="style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 	<script src="js/loadFile.js"></script>
 </head>
 <body>
@@ -16,10 +20,12 @@
 		<!-- Mode -->
 		<select id="mode" class="area" onchange="changeMode()">
 			<option value="0">Losuj</option>
-			<option value="1">Po kolei, polski</option>
-			<option value="2">Po kolei, niemiecki</option>
+			<option value="1">Po kolei, niemiecki</option>
+			<option value="2">Po kolei, polski</option>
 		</select>
 	
+		<br>
+		
 		<!-- Question -->
 		<div class="area">
 			<p id="question">AMOGUS</p>
@@ -27,6 +33,10 @@
 		
 		<!-- Answer -->
 		<input type="text" id="input" class="area" placeholder="ODPOWIEDŹ">
+		
+		<!-- feedback -->
+		<div class="feedback">
+			<p id="feedback"></p>
 		</div>
 		
 		<br>
@@ -35,5 +45,18 @@
 	</main>
 	
 	<script src="js/quiz.js"></script>
+	<script>
+		// So the page doesn't scale when the user opens his keyboard on a mobile device
+		$(document).ready(function() 
+		{
+			setTimeout(function () 
+			{
+				let viewheight = $(window).height();
+				let viewwidth = $(window).width();
+				let viewport = document.querySelector("meta[name=viewport]");
+				viewport.setAttribute("content", "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0");
+			}, 300);
+		});
+	</script>
 </body>
 </html>

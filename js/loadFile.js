@@ -4,14 +4,15 @@ var german = new Array();
 var polish = new Array();
 
 // Load the correct file on load
-fetch("topics/test.txt")
+fetch("topics/amogus.gus")
 	.then(response => response.text())
 	.then(text => readFile(text))
 	.catch((error) => console.error(error));
 	
 function readFile(text)
 {
-	const phrases = text.split('\n'); // Divide the text file into lines
+	console.log(text);
+	const phrases = text.split('\r\n'); // Divide the text file into lines
 	// Divide lines into languages
 	for (let i = 0; i < phrases.length; i++)
 	{

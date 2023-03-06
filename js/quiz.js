@@ -1,12 +1,15 @@
 var mode = "0";
+var currentQuestionIndex = 0; // Used only in modes 2 and 3
+var correctAnswer;
 
-var question = document.getElementById("question"); // <p> tag
-document.getElementById("checkButton").addEventListener("click", randomizeQuestion); // TODO: change this
+var button = document.getElementById("checkButton");
+
+window.onload = function() { pickQuestion() };
 
 function changeMode()
 {
 	mode = document.getElementById("mode").value;
-	console.log(mode);
+	pickQuestion();
 }
 
 function getRandomInt(max) // Exclusive
@@ -14,19 +17,59 @@ function getRandomInt(max) // Exclusive
 	return Math.floor(Math.random() * max);
 }
 
-function randomizeQuestion()
+function pickQuestion()
 {
+	document.getElementById("feedback").innerHTML = "sus";
+	// Pick integer and language
+	let index = 0;
+	let questionLang = 0;
 	if (mode == "0")
 	{
-		let invert = getRandomInt(2);
-		if (invert == 0)
-			question.innerHTML = german[getRandomInt(german.length)];
-		else
-			question.innerHTML = polish[getRandomInt(polish.length)];
+		index = getRandomInt(polish.length);
+		questionLang = getRandomInt(2);
 	}
-	// TODO: Should iterate through the list, not randomize
-	else if (mode == "1")
-		question.innerHTML = polish[getRandomInt(polish.length)];
+	else // Modes which increment through phrases
+	{
+		index = currentQuestionIndex;
+		currentQuestionIndex = currentQuestionIndex + 1 < polish.length ? currentQuestionIndex + 1 : 0;
+		
+		questionLang = parseInt(mode) - 1;
+	}
+	
+	// Set appropriate values
+	let question = document.getElementById("question"); // <p> tag
+	if (questionLang == 0)
+	{
+		question.innerHTML = german[index];
+		correctAnswer = polish[index];
+	}
 	else
-		question.innerHTML = german[getRandomInt(german.length)];
+	{
+		question.innerHTML = polish[index];
+		correctAnswer = german[index];
+	}
+	
+	// Change button
+	button.innerHTML = "SPRAWDŹ";
+	button.removeEventListener("click", pickQuestion);
+	button.addEventListener("click", checkAnswer);
+	
+	document.getElementById("input").value = "";
+	document.getElementById("feedback").innerHTML = "";
+}
+
+function checkAnswer()
+{
+	let userInput = document.getElementById("input").value;
+	let feedback = document.getElementById("feedback");
+	
+	if (userInput.toLowerCase() == correctAnswer.toLowerCase())
+		feedback.innerHTML = "Świetnie! Poprawna odpowiedź."
+	else
+		feedback.innerHTML = "Niestety, poprawna odpowiedź to " + correctAnswer;
+	
+	// Change button
+	button.innerHTML = "NASTĘPNE";
+	button.removeEventListener("click", checkAnswer);
+	button.addEventListener("click", pickQuestion);
 }

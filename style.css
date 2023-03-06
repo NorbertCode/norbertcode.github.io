@@ -61,6 +61,15 @@ input.area,select.area
 	font-size: 2.5vh;
 }
 
+.feedback
+{
+	color: #bbb;
+	text-align: right;
+	
+	width: 85%;
+	margin: auto;
+}
+
 button
 {
 	background-color: #444;
