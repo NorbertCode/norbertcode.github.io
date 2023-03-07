@@ -8,15 +8,19 @@
 	<title>GermanTester</title>
 	
 	<link rel="stylesheet" href="style.css">
-	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-	<script src="js/loadFile.js"></script>
 </head>
 <body>
 	<header>
 		<h1>German Tester</h1>
 	</header>
 	<main>
+		<!-- Mode -->
+		<select id="topic" class="area" onchange="changeTopic()">
+			<option value="unsere_angste_vor_der_schule.txt">Unsere Angste vor der Schule</option>
+			<option value="so_leben_teenager.txt">So leben Teenager</option>
+		</select>
+		
 		<!-- Mode -->
 		<select id="mode" class="area" onchange="changeMode()">
 			<option value="0">Losuj</option>
@@ -34,14 +38,14 @@
 		<!-- Answer -->
 		<input type="text" id="input" class="area" placeholder="ODPOWIEDŹ">
 		
+		<br>
+		
+		<button id="checkButton">SPRAWDŹ</button>
+		
 		<!-- feedback -->
 		<div class="feedback">
 			<p id="feedback"></p>
 		</div>
-		
-		<br>
-		
-		<button id="checkButton">SPRAWDŹ</button>
 	</main>
 	
 	<script src="js/quiz.js"></script>

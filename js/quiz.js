@@ -1,10 +1,51 @@
+/*** INITIALIZATION ***/
+
+// Arrays of phrases in both languages
+// Initialize them here to keep them global for the entire file
+var german = new Array();
+var polish = new Array();
+
+changeTopic();
+
+function loadFile(fileName)
+{
+	german = new Array();
+	polish = new Array();
+
+	fetch("topics/" + fileName)
+		.then(response => response.text())
+		.then(text => { parseFile(text); pickQuestion()})
+		.catch((error) => console.error(error));
+}
+	
+function parseFile(text)
+{
+	const phrases = text.split('\r\n'); // Divide the text file into lines
+	// Divide lines into languages
+	for (let i = 0; i < phrases.length; i++)
+	{
+		let line = phrases[i].split(',');
+		german.push(line[0]);
+		polish.push(line[1]);
+	}
+}
+
+
+
+//*** QUIZ ***/
+
 var mode = "0";
-var currentQuestionIndex = 0; // Used only in modes 2 and 3
+var currentQuestionIndex; // Used only in modes 2 and 3
 var correctAnswer;
 
 var button = document.getElementById("checkButton");
 
-window.onload = function() { pickQuestion() };
+function changeTopic()
+{
+	let fileName = document.getElementById("topic").value;
+	currentQuestionIndex = 0;
+	loadFile(fileName);
+}
 
 function changeMode()
 {
@@ -12,14 +53,8 @@ function changeMode()
 	pickQuestion();
 }
 
-function getRandomInt(max) // Exclusive
-{
-	return Math.floor(Math.random() * max);
-}
-
 function pickQuestion()
 {
-	document.getElementById("feedback").innerHTML = "sus";
 	// Pick integer and language
 	let index = 0;
 	let questionLang = 0;
@@ -72,4 +107,9 @@ function checkAnswer()
 	button.innerHTML = "NASTĘPNE";
 	button.removeEventListener("click", checkAnswer);
 	button.addEventListener("click", pickQuestion);
+}
+
+function getRandomInt(max) // Exclusive
+{
+	return Math.floor(Math.random() * max);
 }
