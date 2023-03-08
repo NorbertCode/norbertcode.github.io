@@ -29,6 +29,7 @@ function parseFile(text)
 		// I guess because of how different software handles stuff like this
 		// You have to split the text into lines and remove line breaks separately
 		phrases[i] = phrases[i].replace("\n", "");
+		phrases[i] = phrases[i].replace("|", ""); // Make sure there are no line brakes. If this wasn't done the last phrase in Polish would have one at the end
 		
 		let line = phrases[i].split(';');
 		german.push(line[0]);
