@@ -21,7 +21,7 @@ function loadFile(fileName)
 function parseFile(text)
 {
 	console.log(text);
-	const phrases = text.split('\n'); // Divide the text file into lines
+	const phrases = text.split('|'); // Divide the text file into lines
 	// Divide lines into languages
 	for (let i = 0; i < phrases.length; i++)
 	{

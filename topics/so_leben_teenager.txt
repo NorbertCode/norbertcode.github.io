@@ -1,43 +1,43 @@
-Jugendliche;młodzież
-engagieren;angażować
-Umweltschutz;ochrona środowiska
-Gleichberechtigung;równouprawnienie
-Toleranz;tolerancja
-zwischen;między
-ein wichtiges Thema;ważny temat
-gleichen Rechte;równe prawa
-der Verein;klub
-verschiedene;rozmaite
-einmal im Monat;raz w miesiącu
-marschieren;maszerować
-die Armut;bieda
-beherrscht;opanować
-die Welt;świat
-geben;dawać
-die AG;kółko zainteresowań
-die Gabe;dar
-sammeln;zbierać
-die Kleidung;ubranie
-gebrauchte Gegenstande;używane rzeczy
-Gerate;urządzenia
-arme Menschen;biedni ludzie
-brauchen;potrzebować
-die Gleichgültigkeit;obojętność
-die Menschheit;ludzkość
-der Klimawandel;zmiana klimatu
-die Herausforderung;wyzwanie
-die Erde;Ziemia
-ohne;bez
-existieren;istnieć
-umgekehrt;odwrotnie
-meisten Menschen;wiekszość ludzi
-das Klima;klimat
-egal;obojętnie
-etwas gegen diese Gleichgültigkeit tun;zrobić coś przeciw tej obojętności
-Fluchtlinge;uchodźcy
-fliehen;uciekać
-Krieg;wojna
-Verfolgung;prześladowanie
-Seit fünf Monaten;Od pięciu miesięcy
-die Liebe;miłość
-die Freiheit;wolność
+Jugendliche;młodzież|
+engagieren;angażować|
+Umweltschutz;ochrona środowiska|
+Gleichberechtigung;równouprawnienie|
+Toleranz;tolerancja|
+zwischen;między|
+ein wichtiges Thema;ważny temat|
+gleichen Rechte;równe prawa|
+der Verein;klub|
+verschiedene;rozmaite|
+einmal im Monat;raz w miesiącu|
+marschieren;maszerować|
+die Armut;bieda|
+beherrscht;opanować|
+die Welt;świat|
+geben;dawać|
+die AG;kółko zainteresowań|
+die Gabe;dar|
+sammeln;zbierać|
+die Kleidung;ubranie|
+gebrauchte Gegenstande;używane rzeczy|
+Gerate;urządzenia|
+arme Menschen;biedni ludzie|
+brauchen;potrzebować|
+die Gleichgültigkeit;obojętność|
+die Menschheit;ludzkość|
+der Klimawandel;zmiana klimatu|
+die Herausforderung;wyzwanie|
+die Erde;Ziemia|
+ohne;bez|
+existieren;istnieć|
+umgekehrt;odwrotnie|
+meisten Menschen;wiekszość ludzi|
+das Klima;klimat|
+egal;obojętnie|
+etwas gegen diese Gleichgültigkeit tun;zrobić coś przeciw tej obojętności|
+Fluchtlinge;uchodźcy|
+fliehen;uciekać|
+Krieg;wojna|
+Verfolgung;prześladowanie|
+Seit fünf Monaten;Od pięciu miesięcy|
+die Liebe;miłość|
+die Freiheit;wolność|
