@@ -32,8 +32,11 @@ function parseFile(text)
 		phrases[i] = phrases[i].replace("|", ""); // Make sure there are no line brakes. If this wasn't done the last phrase in Polish would have one at the end
 		
 		let line = phrases[i].split(';');
-		german.push(line[0]);
-		polish.push(line[1]);
+		if (line[0] != null || line[0] != "")
+		{
+			german.push(line[0]);
+			polish.push(line[1]);
+		}
 	}
 }
 
