@@ -14,38 +14,48 @@
 	<header>
 		<h1>German Tester</h1>
 	</header>
-	<main>
-		<!-- Mode -->
-		<select id="topic" class="area" onchange="changeTopic()">
-			<option value="unsere_angste_vor_der_schule.txt">Unsere Angste vor der Schule</option>
-			<option value="so_leben_teenager.txt">So leben Teenager</option>
-		</select>
-		
-		<!-- Mode -->
-		<select id="mode" class="area" onchange="changeMode()">
-			<option value="0">Losuj</option>
-			<option value="1">Po kolei, niemiecki</option>
-			<option value="2">Po kolei, polski</option>
-		</select>
 	
-		<br>
+	
+	
+	<main>
+		<div class="block">
+			<!-- Mode -->
+			<select id="topic" class="area" onchange="changeTopic()">
+				<option value="unsere_angste_vor_der_schule.txt">Unsere Angste vor der Schule</option>
+				<option value="so_leben_teenager.txt">So leben Teenager</option>
+			</select>
+			
+			<!-- Mode -->
+			<select id="mode" class="area" onchange="changeMode()">
+				<option value="0">Losuj</option>
+				<option value="1">Po kolei, niemiecki</option>
+				<option value="2">Po kolei, polski</option>
+			</select>
 		
-		<!-- Question -->
-		<div class="area">
-			<p id="question">AMOGUS</p>
+			<br>
+			
+			<!-- Question and answer -->
+			<div class="area"> <p id="question">AMOGUS</p> </div>
+			<input type="text" id="input" class="area" placeholder="ODPOWIEDŹ">
+			
+			<div class="characterHolder">
+				<button onclick="addCharacter('ä')" class="characterButton">ä</button>
+				<button onclick="addCharacter('ö')" class="characterButton">ö</button>
+				<button onclick="addCharacter('ü')" class="characterButton">ü</button>
+				<button onclick="addCharacter('ß')" class="characterButton">ß</button>
+			</div>
+			
+			<br>
+			
+			<!-- Check button and feedback text -->
+			<button id="checkButton">SPRAWDŹ</button>
+			
+			<div class="feedback">
+				<p id="feedback"></p>
+			</div>
 		</div>
 		
-		<!-- Answer -->
-		<input type="text" id="input" class="area" placeholder="ODPOWIEDŹ">
-		
-		<br>
-		
-		<button id="checkButton">SPRAWDŹ</button>
-		
-		<!-- feedback -->
-		<div class="feedback">
-			<p id="feedback"></p>
-		</div>
+		<hr>
 	</main>
 	
 	<script src="js/quiz.js"></script>

@@ -28,13 +28,17 @@ header h1
 	transform: translate(-50%, -50%);
 }
 
-main
+hr
 {
-	width: 90vw;
+	border: 4px solid #a12c23;
+}
+
+.block
+{
+	width: 100vw;
 	margin: 3vh auto;
-	padding: 2vh 0;
+	padding: 0.5vh 0;
 	
-	border: 0.8vh #a12c23 solid;
 	font-size: 2.5vh;
 }
 
@@ -75,7 +79,7 @@ button
 	background-color: #444;
 	color: #bbb;
 	
-	width: 90%;
+	width: 85%;
 	margin: 2vh auto;
 	padding: 1.5vh;
 	
@@ -88,4 +92,21 @@ button:hover
 {
 	background-color: #a12c23;
 	color: #d4d015;
+}
+
+.characterHolder
+{
+	background-color: #333;
+	text-align: center;
+	
+	width: 90%;
+	margin: auto;
+}
+
+.characterButton
+{
+	display: inline-block;
+	width: 5vh;
+	height: 6vh;
+	margin: 0.5vh 2vh;
 }

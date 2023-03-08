@@ -31,7 +31,6 @@ function parseFile(text)
 }
 
 
-
 //*** QUIZ ***/
 
 var mode = "0";
@@ -107,6 +106,11 @@ function checkAnswer()
 	button.innerHTML = "NASTĘPNE";
 	button.removeEventListener("click", checkAnswer);
 	button.addEventListener("click", pickQuestion);
+}
+
+function addCharacter(character)
+{
+	document.getElementById("input").value += character;
 }
 
 function getRandomInt(max) // Exclusive
