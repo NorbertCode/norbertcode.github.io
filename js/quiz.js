@@ -21,10 +21,15 @@ function loadFile(fileName)
 function parseFile(text)
 {
 	console.log(text);
-	const phrases = text.split('|\n'); // Divide the text file into lines
+	let phrases = text.split('|'); // Divide the text file into lines
+	
 	// Divide lines into languages
 	for (let i = 0; i < phrases.length; i++)
 	{
+		// I guess because of how different software handles stuff like this
+		// You have to split the text into lines and remove line breaks separately
+		phrases[i] = phrases[i].replace("\n", "");
+		
 		let line = phrases[i].split(';');
 		german.push(line[0]);
 		polish.push(line[1]);
