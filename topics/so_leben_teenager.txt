@@ -1,43 +1,43 @@
-Jugendliche,mlodziez
-engagieren,angazowac
-Umweltschutz,ochrona srodowiska
-Gleichberechtigung,rownouprawnienie
+Jugendliche,młodzież
+engagieren,angażować
+Umweltschutz,ochrona środowiska
+Gleichberechtigung,równouprawnienie
 Toleranz,tolerancja
-zwischen,miedzy
-ein wichtiges  Thema,wazny temat
-gleichen Rechte,rowne prawa
+zwischen,między
+ein wichtiges Thema,ważny temat
+gleichen Rechte,równe prawa
 der Verein,klub
 verschiedene,rozmaite
-einmal im Monat,raz w miesiacu
-marschieren,maszerowac
+einmal im Monat,raz w miesiącu
+marschieren,maszerować
 die Armut,bieda
-beherrscht,opanowac
-die Welt,swiat
-geben,dawac
-die AG,kolko zainteresowan
+beherrscht,opanować
+die Welt,świat
+geben,dawać
+die AG,kółko zainteresowań
 die Gabe,dar
-sammeln,zbierac
+sammeln,zbierać
 die Kleidung,ubranie
-gebrauchte Gegenstande,uzywane rzeczy
-Gerate,urzadzenia
+gebrauchte Gegenstande,używane rzeczy
+Gerate,urządzenia
 arme Menschen,biedni ludzie
-brauchen,potrzebowac
-die Gleichgultigkeit,obojetnosc
-die Menschheit,ludzkosc
+brauchen,potrzebować
+die Gleichgültigkeit,obojętność
+die Menschheit,ludzkość
 der Klimawandel,zmiana klimatu
 die Herausforderung,wyzwanie
 die Erde,Ziemia
 ohne,bez
-existieren,istniec
+existieren,istnieć
 umgekehrt,odwrotnie
-meisten Menschen,wiekszosc ludzi
+meisten Menschen,wiekszość ludzi
 das Klima,klimat
-egal,obojetnie
-etwas gegen diese Gleichgultigkeit tun,zrobic cos przeciw tej obojetnosci
-Fluchtlinge,uchodzcy
-fliehen,uciekac
+egal,obojętnie
+etwas gegen diese Gleichgültigkeit tun,zrobić coś przeciw tej obojętności
+Fluchtlinge,uchodźcy
+fliehen,uciekać
 Krieg,wojna
-Verfolgung,przesladowanie
-Seit funf Monaten,Od pieciu miesiecy
-die Liebe,milosc
-die Freiheit,wolnosc
+Verfolgung,prześladowanie
+Seit fünf Monaten,Od pięciu miesięcy
+die Liebe,miłość
+die Freiheit,wolność
