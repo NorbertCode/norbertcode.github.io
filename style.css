@@ -19,6 +19,7 @@ header
 header h1
 {
 	font-size: 4vh;
+	letter-spacing: 0.25vh;
 	
 	/* Center vertically */
 	margin: 0;

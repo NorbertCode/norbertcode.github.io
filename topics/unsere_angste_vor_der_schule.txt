@@ -1,25 +1,25 @@
-dass,że
-weil,bo
-Angst haben,bać sie
-halten für ernst,uważać za poważne
-sonst,w przeciwnym razie
-unruhig,niespokojny
-wie Studien zeigen,jak pokazują badania
-der Grund,podstawa
-unterschiedlich,różny
-Prüfungen,egzaminy
-streng,surowy
-Außerdem,poza tym
-gerecht,sprawiedliwy
-ungerecht,niesprawiedliwy
-eine solche Situation,taka sytuacja
-traurige,smutny
-der Meinung,opinia
-die Lust,chęć
-faul,leniwy
-heutzutage,obecnie
-unterstützen,wspierać
-leiden,cierpieć
-leiden an,cierpieć na
-die Erwachsenen,dorośli
-bemerken,zauważać
+dass;że
+weil;bo
+Angst haben;bać sie
+halten für ernst;uważać za poważne
+sonst;w przeciwnym razie
+unruhig;niespokojny
+wie Studien zeigen;jak pokazują badania
+der Grund;podstawa
+unterschiedlich;różny
+Prüfungen;egzaminy
+streng;surowy
+Außerdem;poza tym
+gerecht;sprawiedliwy
+ungerecht;niesprawiedliwy
+eine solche Situation;taka sytuacja
+traurige;smutny
+der Meinung;opinia
+die Lust;chęć
+faul;leniwy
+heutzutage;obecnie
+unterstützen;wspierać
+leiden;cierpieć
+leiden an;cierpieć na
+die Erwachsenen;dorośli
+bemerken;zauważać

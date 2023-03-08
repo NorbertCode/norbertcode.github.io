@@ -5,7 +5,7 @@
 var german = new Array();
 var polish = new Array();
 
-changeTopic();
+changeTopic(); // Set the topic and load the appropriate file
 
 function loadFile(fileName)
 {
@@ -20,11 +20,12 @@ function loadFile(fileName)
 	
 function parseFile(text)
 {
+	console.log(text);
 	const phrases = text.split('\r\n'); // Divide the text file into lines
 	// Divide lines into languages
 	for (let i = 0; i < phrases.length; i++)
 	{
-		let line = phrases[i].split(',');
+		let line = phrases[i].split(';');
 		german.push(line[0]);
 		polish.push(line[1]);
 	}
@@ -36,8 +37,6 @@ function parseFile(text)
 var mode = "0";
 var currentQuestionIndex; // Used only in modes 2 and 3
 var correctAnswer;
-
-var button = document.getElementById("checkButton");
 
 // Trigger check button when the user presses enter while typing
 document.getElementById("input").addEventListener("keypress", function(event) 
@@ -95,6 +94,7 @@ function pickQuestion()
 	}
 	
 	// Change button
+	let button = document.getElementById("checkButton");
 	button.innerHTML = "SPRAWDŹ";
 	button.removeEventListener("click", pickQuestion);
 	button.addEventListener("click", checkAnswer);
@@ -120,6 +120,7 @@ function checkAnswer()
 	}
 	
 	// Change button
+	let button = document.getElementById("checkButton");
 	button.innerHTML = "NASTĘPNE";
 	button.removeEventListener("click", checkAnswer);
 	button.addEventListener("click", pickQuestion);
