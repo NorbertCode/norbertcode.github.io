@@ -39,6 +39,17 @@ var correctAnswer;
 
 var button = document.getElementById("checkButton");
 
+// Trigger check button when the user presses enter while typing
+document.getElementById("input").addEventListener("keypress", function(event) 
+{
+	if (event.key === "Enter") 
+	{
+		// Cancel the default action, if needed
+		event.preventDefault();
+		document.getElementById("checkButton").click();
+	}
+});
+
 function changeTopic()
 {
 	let fileName = document.getElementById("topic").value;
@@ -98,9 +109,15 @@ function checkAnswer()
 	let feedback = document.getElementById("feedback");
 	
 	if (userInput.toLowerCase() == correctAnswer.toLowerCase())
-		feedback.innerHTML = "Świetnie! Poprawna odpowiedź."
+	{
+		feedback.innerHTML = "Świetnie! Poprawna odpowiedź.";
+		feedback.style.color = "#1fad45";
+	}
 	else
+	{
 		feedback.innerHTML = "Niestety, poprawna odpowiedź to " + correctAnswer;
+		feedback.style.color = "#d60b33";
+	}
 	
 	// Change button
 	button.innerHTML = "NASTĘPNE";
@@ -110,7 +127,9 @@ function checkAnswer()
 
 function addCharacter(character)
 {
-	document.getElementById("input").value += character;
+	let input = document.getElementById("input");
+	input.value += character;
+	input.focus(); // So the mobile keyboard doesn't close when you add a character
 }
 
 function getRandomInt(max) // Exclusive
