@@ -8,7 +8,7 @@ Wenn wir Geld hätten, würden wir ein Auto kaufen;Gdybyśmy mieli pieniądze, k
 Wenn ich Zeit hätte, würde ich mit dir ins Kino gehen;Gdybym miał czas, poszedłbym z tobą do kina|
 Wenn sie gesund wäre, würde sie ans Meer fähren;Gdyby była zdrowa, pojechałaby nad morze|
 Wenn ich nicht krank wäre, würde ich in die Schüle gehen;Gdybym nie był chory, poszedłbym do szkoły|
-Wenn wir Lust hätten, würden wir ins Kino gehen;Gdybyśmy mieli ochotę poszlibyśmy do kina|
+Wenn wir Lust hätten, würden wir ins Kino gehen;Gdybyśmy mieli ochotę, poszlibyśmy do kina|
 Wenn wir Zeit hätten, würden wir mehr Bücher lesen;Gdybyśmy mieli czas, przeczytalibyśmy więcej książek|
-Was würdest du machen, wenn du Geld hättest?;Co byś zrobił gdybyś miał dużo pieniądzy?|
+Was würdest du machen, wenn du Geld hättest?;Co byś zrobił, gdybyś miał pieniądze?|
 Wenn ich sportlich wäre, würde ich ski fähren;Gdybym był wysportowany, jeździłbym na nartach|
