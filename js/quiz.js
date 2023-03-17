@@ -2,8 +2,8 @@
 
 // Arrays of phrases in both languages
 // Initialize them here to keep them global for the entire file
-var german = new Array();
-var polish = new Array();
+let german = new Array();
+let polish = new Array();
 
 changeTopic(); // Set the topic and load the appropriate file
 
@@ -44,30 +44,30 @@ function parseFile(text)
 //*** QUIZ ***/
 
 var mode = "0";
-var currentQuestionIndex; // Used only in modes 2 and 3
-var correctAnswer;
+var currentQuestionIndex = 0; // Used only in modes 2 and 3
+var correctAnswer = "";
 
 // Trigger check button when the user presses enter while typing
-document.getElementById("input").addEventListener("keypress", function(event) 
+document.querySelector("#input").addEventListener("keypress", function(event) 
 {
 	if (event.key === "Enter") 
 	{
 		// Cancel the default action, if needed
 		event.preventDefault();
-		document.getElementById("checkButton").click();
+		document.querySelector("#checkButton").click();
 	}
 });
 
 function changeTopic()
 {
-	let fileName = document.getElementById("topic").value;
+	let fileName = document.querySelector("#topic").value;
 	currentQuestionIndex = 0;
 	loadFile(fileName);
 }
 
 function changeMode()
 {
-	mode = document.getElementById("mode").value;
+	mode = document.querySelector("#mode").value;
 	pickQuestion();
 }
 
@@ -90,7 +90,7 @@ function pickQuestion()
 	}
 	
 	// Set appropriate values
-	let question = document.getElementById("question"); // <p> tag
+	let question = document.querySelector("#question"); // <p> tag
 	if (questionLang == 0)
 	{
 		question.innerHTML = german[index];
@@ -103,19 +103,19 @@ function pickQuestion()
 	}
 	
 	// Change button
-	let button = document.getElementById("checkButton");
+	let button = document.querySelector("#checkButton");
 	button.innerHTML = "SPRAWDŹ";
 	button.removeEventListener("click", pickQuestion);
 	button.addEventListener("click", checkAnswer);
 	
-	document.getElementById("input").value = "";
-	document.getElementById("feedback").innerHTML = "";
+	document.querySelector("#input").value = "";
+	document.querySelector("#feedback").innerHTML = "";
 }
 
 function checkAnswer()
 {
-	let userInput = document.getElementById("input").value;
-	let feedback = document.getElementById("feedback");
+	let userInput = document.querySelector("#input").value;
+	let feedback = document.querySelector("#feedback");
 
 	// inputChars are converted to outputChars so special characters don't matter
 	const inputChars = [',', '.', "?", 'ą', 'ć', 'ę', 'ł', 'ń', 'ó', 'ś', 'ź', 'ż', 'ä', 'ö', 'ü', 'ß'];
@@ -140,7 +140,7 @@ function checkAnswer()
 	}
 	
 	// Change button
-	let button = document.getElementById("checkButton");
+	let button = document.querySelector("#checkButton");
 	button.innerHTML = "NASTĘPNE";
 	button.removeEventListener("click", checkAnswer);
 	button.addEventListener("click", pickQuestion);
@@ -148,7 +148,7 @@ function checkAnswer()
 
 function addCharacter(character)
 {
-	let input = document.getElementById("input");
+	let input = document.querySelector("#input");
 	input.value += character;
 	input.focus(); // So the mobile keyboard doesn't close when you add a character
 }
