@@ -108,7 +108,9 @@ function pickQuestion()
 	button.removeEventListener("click", pickQuestion);
 	button.addEventListener("click", checkAnswer);
 	
-	document.querySelector("#input").value = "";
+	let input = document.querySelector("#input");
+	input.value = "";
+	input.focus();
 	document.querySelector("#feedback").innerHTML = "";
 }
 
