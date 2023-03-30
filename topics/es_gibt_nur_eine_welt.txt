@@ -6,7 +6,7 @@ duschen statt baden;brać prysznic zamiast kąpieli|
 beim Verlassen des Zimmers das Licht ausschalten;gasić światło wychodząc z pokoju|
 zum Einkaufen Sofftaschen mitnehmen;brać ze sobą torbę na zakupy|
 Fahrrad fahren oder öffentliche Verkehrsmittel benutzen;jazda na rowerze lub korzystanie z transportu publicznego|
-elektronische Geräte nicht auf Stand-by schalten, sondern ganz ausmachen;nie przełączać urządzeń elektronicznych w tryb czuwania, ale całkowicie wyłączyć|
+elektronische Geräte nicht auf Stand-by schalten, sondern ganz ausmachen;nie przełączać urządzeń elektronicznych w tryb czuwania, ale całkowicie wyłączać|
 Wir lassen das Wasser laufen.;Odkręcamy wodę, żeby leciała.|
 Wir verbrauchen zu viel Strom.;Używamy za dużo prądu.|
 Wir produzieren im Haushalt zu viel Müll.;Produkujemy w domu za dużo śmieci.|
