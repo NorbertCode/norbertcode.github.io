@@ -1,0 +1,24 @@
+Umweltschutz;ochrona środowiska|
+den Müll trennen;segregować śmieci|
+keinen Müll in der Natur wegwerfen;nie wyrzucać śmieci do natury|
+beim Zähneputzen oder Einseifen der Wasserhahn zudrehen;zakręcać wodę podczas mycia zębów lub namydlania|
+duschen statt baden;brać prysznic zamiast kąpieli|
+beim Verlassen des Zimmers das Licht ausschalten;gasić światło wychodząc z pokoju|
+zum Einkaufen Sofftaschen mitnehmen;brać ze sobą torbę na zakupy|
+Fahrrad fahren oder öffentliche Verkehrsmittel benutzen;jazda na rowerze lub korzystanie z transportu publicznego|
+elektronische Geräte nicht auf Stand-by schalten, sondern ganz ausmachen;nie przełączać urządzeń elektronicznych w tryb czuwania, ale całkowicie wyłączyć|
+Wir lassen das Wasser laufen.;Odkręcamy wodę, żeby leciała.|
+Wir verbrauchen zu viel Strom.;Używamy za dużo prądu.|
+Wir produzieren im Haushalt zu viel Müll.;Produkujemy w domu za dużo śmieci.|
+Wir fahren Autos, die Abgase erzeugen.;Jeździmy samochodami, które produkują spaliny.|
+Wir benutzen Plastiktüten.;Używamy plastikowych toreb.|
+Ich werfe keinen Müll in der Natur weg;Nie wyrzucam śmieci do natury.|
+Ich verbrauche wenig Strom;Używam mało prądu.|
+wenig;mało|
+immer;zawsze|
+jeden Tag;codziennie|
+manchmal;czasami|
+ab und zu;od czasu do czasu|
+oft;często|
+selten;rzadko|
+nie;nigdy|
