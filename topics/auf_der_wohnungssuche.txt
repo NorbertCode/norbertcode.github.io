@@ -1,0 +1,34 @@
+nicht möbilert;nieumeblowane|
+teilmöbliert;częściowo umeblowane|
+schön sonnig;dobrze oświetlone|
+Einbauküche;urządzona kuchnia|
+Wohngemeinshaft;mieszkanie w kilka osób|
+Dachgeschoss;strych|
+Erdgeschoss;parter|
+Aufzug;winda|
+Zentralheizung;centralne ogrzewanie|
+Stadtrand;obrzeża miasta|
+Hochhaus;wieżowiec|
+Kaution;kaucja|
+Nebenkosten;dodatkowe koszty|
+Die Miete;czynsz|
+Kaltmiete;bez opłat dodatkowych|
+Warmmiete;wszystkie opłaty wliczone|
+Mieten;wynająć od kogoś|
+Vermieten;wynająć komuś|
+Keller;piwnica|
+Mietshaus;kamienica|
+sofort;natychmiast|
+Anzeige;ogłoszenie|
+Etage;piętro|
+das Tier;zwierzę|
+die Hausetier;zwierzę domowe|
+tref;głęboko|
+mit Blick auf Park;z widokiem na park|
+verkaufen;sprzedawać|
+der Pampa;zadupie|
+in der Nähe;w pobliżu|
+der Laden;sklep|
+Geschäfte machen;robić interesy|
+seit wann;od kiedy (przeszłość)|
+ab wann;od kiedy (przyszłość)|
