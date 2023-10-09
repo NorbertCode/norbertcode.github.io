@@ -1,0 +1,28 @@
+großes Freizeitangebot;dużo możliwości spędzania czasu wolnego|
+großes Kulturangebot;duża oferta kulturowa|
+viele;dużo|
+wenige;niewiele|
+Geschäfte;sklepy|
+Parkplätze;parkingi|
+schmutzige;brudne|
+saubere;czyste|
+frische;świeże|
+Luft;powietrze|
+Lärm;hałas|
+Hektik;zgiełk|
+Kriminalität;przestępczość|
+Verkehr;ruch drogowy|
+gute;dobre|
+schlechte;złe|
+Einkaufsmöglichkeiten;możliwości zakupu|
+Arbeitsmöglichkeiten;możliwości pracy|
+Restaurants an jeder Ecke;restauracje na każdym rogu|
+ruhig;cicho|
+laut;głośno|
+weit nah zur Schule;daleko do szkoły|
+nah zur Schule;blisko do szkoły|
+schön;ładnie|
+grün;zielony|
+interessant;interesujący|
+viel los;zajęty|
+spannend;ekscytujący|
