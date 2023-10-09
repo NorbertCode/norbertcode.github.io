@@ -19,7 +19,7 @@ Arbeitsmöglichkeiten;możliwości pracy|
 Restaurants an jeder Ecke;restauracje na każdym rogu|
 ruhig;cicho|
 laut;głośno|
-weit nah zur Schule;daleko do szkoły|
+weit zur Schule;daleko do szkoły|
 nah zur Schule;blisko do szkoły|
 schön;ładnie|
 grün;zielony|
